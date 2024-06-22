@@ -1,0 +1,15 @@
+.main-container{
+  margin: 3rem;
+  width: calc(100% - 6rem);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  
+}
+
+@media (max-width:450px) {
+  .main-container{
+    margin: 1rem 0;
+    width: 100%;
+  }
+}
